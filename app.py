@@ -43,9 +43,9 @@ def recommend():
     return render_template('recommend.html',data=data)
 
 
-
-
-
+@app.route('/contect')
+def contect():
+    return render_template('contect.html')
 
 if __name__=='__main__':
     app.run(debug=True)
